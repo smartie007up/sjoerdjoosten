@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+@font-face {
+    font-family: clementineSketch;
+    src: url(clementine sketch.ttf);
+}
+
+@font-face {
+    font-family: sion;
+    src: url(sion.ttf);
+}
+
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Libre Barcode 128 Text', cursive;
+font-family: 'Cabin Sketch', cursive; */
+
+
+body {
+  font-family: 'Arimo', sans-serif;
+  /* font-family: 'PT Sans Narrow', sans-serif; */
+  background-color: 	#FFFAF0;
+}
+
+#nav-font {
+  margin-top: 20px;
+  /* font-family: 'sion'; */
+  font-family: 'clementineSketch';
+  /* font-family: 'Cabin Sketch', cursive; */
+  /* font-family: 'Libre Barcode 128 Text', cursive; */
+  /* font-family: 'Indie Flower', cursive; */
+  font-size: 17px;
+}
+
+/* Overrule from bootstrap */
+.nav li a {
+  color: black;
+
+}
+.nav li a .active {
+  /* color: white; */
+  /* text-decoration: underline; */
+}
+
+.nav li a:focus {
+  background-color: transparent;
+}
+
+.nav li a:hover {
+  background-color: transparent;
+  color: red;
+}
